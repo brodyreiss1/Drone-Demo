@@ -17,6 +17,4 @@ def array_factor(coords, elevation, azimuth):
 
     AF = np.sum(np.exp(1j * phase))
 
-    AF /= len(coords)
-
     return AF
